@@ -25,8 +25,7 @@ and unzip it into a directory called HAR.
 7.  Use this vector to appropriately label the columns -- features[meanStdCols,2]
 8   Add a "subject" column with cbind()
 9.  Aggregate() the data by subject, applying the "mean" function
-10, Write the function to a file (HAR1.txt) with write.table()
-
+10, Write the function to a file (HARtidy.txt) with write.table()
   
 One of the most exciting areas in all of data science right now is wearable computing - 
 see for example this article . 
@@ -37,8 +36,5 @@ from the Samsung Galaxy S smartphone.
 A full description is available at the site where the data was obtained: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-Here are the data for the project: 
-
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 
